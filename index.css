@@ -1,0 +1,121 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    margin: 0 auto;
+    background-color: gray;
+    font-size: 0.75rem;
+    border: 1px solid gray; 
+}
+
+/* ==================================
+            LAYOUT
+================================== */
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -275px;
+    margin-left: -275px;
+    width: 550px;
+    height: 550px;
+    border: 2.5px solid black;
+    border-radius: 4px;
+}
+
+.color-container {
+    display: flex;
+    background-color: white;
+}
+
+/* ==================================
+            COLOR PANELS
+================================== */
+
+.color-stack {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+}
+
+.color-panel {
+    box-sizing: border-box;   
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 110px;
+    border: 1px solid gray
+}
+
+.color-panel:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.color-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 50px;
+    width: 110px;
+}
+
+#fill0 {
+    background-color: #000;
+}
+
+#fill1 {
+    background-color: #222;
+}
+
+#fill2 {
+    background-color: #444;
+}
+
+#fill3 {
+    background-color: #666;
+}
+
+#fill4 {
+    background-color: #888;
+}
+
+/* ==================================
+            INPUTS
+================================== */
+
+button {
+    margin: 0;
+    margin-right: 10px;
+    height: 45px;
+    width: 130px;
+    
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
+
+input {
+    margin: 0;
+    margin-left: 10px;
+    height: 45px;
+    width: 80px;
+}
+
+select {
+    margin: 0 10px;;
+    height: 45px;
+    width: 300px;
+}

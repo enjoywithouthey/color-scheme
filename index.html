@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <input type="color" id="color-picker"/>
+                <label for="color-scheme"></label>
+                <select name="color-scheme" id="scheme-select">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="monochrome-light">Monochrome Light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button id="color-btn">Get Color Scheme</button>
+            </header>
+        <div class="color-container">
+            <div class="color-stack">
+                <a class="color-panel" id="fill0"></a>
+                <a class="color-name" id="name0"></a></div>
+            <div class="color-stack">
+                <a class="color-panel" id="fill1"></a>
+                <a class="color-name" id="name1"></a></div>
+            <div class="color-stack">
+                <a class="color-panel" id="fill2"></a>
+                <a class="color-name" id="name2"></a></div>
+            <div class="color-stack">
+                <a class="color-panel" id="fill3"></a>
+                <a class="color-name" id="name3"></a></div>
+            <div class="color-stack">
+                <a class="color-panel" id="fill4"></a>
+                <a class="color-name" id="name4"></a></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
